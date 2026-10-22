@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Дневник на лабораторните измервания – 12. Д, ПГЕА">
+  <title>Дневник на лабораторните измервания | 12. Д – ПГЕА</title>
+  <style>
+    :root { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #17243f; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f7fc; line-height: 1.6; }
+    header { background: #12264a; color: white; padding: 18px 24px; }
+    header .brand { max-width: 920px; margin: auto; font-weight: 750; }
+    main { max-width: 920px; margin: auto; padding: 56px 22px 65px; }
+    .tag { color: #2469a0; font-size: .9rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+    h1 { font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.15; margin: 15px 0 18px; }
+    .lead { font-size: 1.15rem; max-width: 65ch; color: #46566e; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: 16px; margin-top: 32px; }
+    .card { border: 1px solid #dbe2ee; background: #fff; border-radius: 18px; padding: 24px; box-shadow: 0 8px 30px #12264a0b; }
+    h2 { margin: 0 0 10px; font-size: 1.2rem; }
+    .count { color: #1b609d; font-size: 1.25rem; font-weight: 750; }
+    a { color: #175a94; }
+    footer { color: #5c6b83; text-align: center; padding: 30px 15px; }
+    @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+  </style>
+</head>
+<body>
+  <header><div class="brand">ПГЕА · 12. Д</div></header>
+  <main>
+    <p class="tag">Учебна практика · Интернет програмиране</p>
+    <h1>Дневник на лабораторните измервания</h1>
+    <p class="lead">Учебен проект, изграден с HTML и CSS и съхраняван с Git и GitHub. Страницата представя лабораторната работна среда.</p>
+    <div class="grid">
+      <section class="card" id="workshop" aria-labelledby="workshop-title">
+        <h2 id="workshop-title">Лабораторна работилница</h2>
+        <p class="count">Работни места: 12 стенда</p>
+        <p>Всеки стенд е предназначен за учебни лабораторни задачи и измервания.</p>
+      </section>
+      <section class="card" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">За проекта</h2>
+        <p>Хранилище: <a href="https://github.com/Ko-lab-sys/pgea-lab">Ko-lab-sys/pgea-lab</a>.</p>
+        <p>При публикуване чрез GitHub Pages страницата е достъпна през HTTPS.</p>
+      </section>
+    </div>
+  </main>
+  <footer>12. Д · ПГЕА · Учебен проект</footer>
+</body>
+</html>
